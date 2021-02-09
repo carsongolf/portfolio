@@ -1,0 +1,132 @@
+@charset "utf-8";
+body {
+	
+	font-size: 14px;
+	background-image: url(bokeh.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	float: none;
+}
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin:auto;
+}
+/*Float the aside so it displays next to Main*/
+aside {
+	width: 100px;
+	height: 1400px;
+	background-color: aquamarine;
+	float: left;
+}
+img {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.floatleft{
+	float:left;
+}
+nav {
+	width: 768px;
+	height: 50px;
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0px 40px 0px 0px;
+	width: 80px;
+	font-family: pragmatapro-fraktur, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+}
+#container nav ul {
+	margin: auto;
+	width: 565px;
+}
+
+header {
+	width: 768px;
+	height: 250px;
+	background-color: #008000;
+	background-image: url(header.jpg);
+}
+h1 {
+	font-family: pragmatapro-fraktur, serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #541313;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up to header*/
+main {
+	width: 598px;
+	height: 1400px;
+	
+}
+/*Clear the floater so the footer shows up in the right place again.*/
+footer {
+	width: 768px;
+	height: 50px;
+	
+	clear: both;
+}
+p{
+	font-family: vaccine,serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h3 {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: forma-djr-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+article {
+	margin-bottom: 30px;
+}
+nav a:link {
+	color: #6BE7FF;
+	text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+	color: #F9CD38;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #6BE7FF;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+	color: #F9F877;
+	text-decoration: none;
+}
+#user_email {
+}
+.submit_btn {
+	width: 160px;
+	background-color: #7FFFD4;
+	border-radius: 5px;
+	font-size: 16px;
+	
+}
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
